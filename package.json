@@ -1,0 +1,19 @@
+{
+  "name": "digikala-clone",
+  "version": "1.0.0",
+  "description": "this is a test",
+  "keywords": [
+    "DigiKala"
+  ],
+  "license": "ISC",
+  "author": "kiana",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "git": "^0.1.5",
+    "swiper": "^11.2.2"
+  }
+}

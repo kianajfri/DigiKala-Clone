@@ -15,3 +15,7 @@
 .wrapper{
     width: 100%;
 }
+
+:root{
+  --border-radius-medium:8px;
+}

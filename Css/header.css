@@ -55,7 +55,20 @@
             .digikala-header-center-login{
                 width:15%;
                 height: 100%;
-                background-color: rgb(60, 31, 10);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .digikala-header-center-register-link{
+                    display: flex;
+                    flex-flow: row wrap;
+                    width: 135px;
+                    height: 40px;
+                    border: 1px solid lightgray;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5px;
+                    column-gap: 5px;
+                }
             }
         }
         .bottom-header{

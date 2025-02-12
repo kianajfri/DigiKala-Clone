@@ -1,125 +1,143 @@
-.header{
-    width: 100%;
-    height: 170px;
-    box-shadow: 1px 1px 3px lightgray;
-    header{
+.header {
+  width: 100%;
+  height: 170px;
+  box-shadow: 1px 1px 3px lightgray;
+  header {
+    width: inherit;
+    height: inherit;
+    .top-header {
+      width: 100%;
+      height: 60px;
+      background-color: #ed1945;
+      .header-img {
         width: inherit;
         height: inherit;
-        .top-header{
-            width: 100%;
-            height: 60px;
-            background-color: #ED1945;
-            .header-img{
-                width:inherit;
-                height:inherit;
-            }
-        }
-        .center-header{
-            width: 100%;
-            height: 70px;
-            display: flex;
-            flex-flow: row wrap;
-            .digikala-header-center-logo{
-                width: 15%;
-                height: 100%;
-                padding-right: 17px;
-                display: flex;
-                flex-flow: row wrap;
-                justify-content: center;
-                align-items: center;
-            }
-            .digikala-header-center-search{
-                width:70%;
-                height: 100%;
-                display: flex;
-                flex-flow: row wrap;
-                align-items: center;
-                padding-right: 8px;
-                .search-input-center{
-                    width: 56%;
-                    height: 44px;
-                    margin: 15px;
-                    background-color: #F0F0F1;
-                    border: none;   
-                    border-radius: var(--border-radius-medium);
-                    padding-right: 10px;
-                    caret-color: gray;
-                    font-family: Yekan;
-                    &::placeholder{
-                        padding-right: 30px;
-                        font-family: Yekan;
-                        font-size: 12px;
-                        color: gray;
-                      }
-                }
-            }
-            .digikala-header-center-login{
-                width:15%;
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                column-gap:13px;
-                .digikala-header-center-register-link{
-                    display: flex;
-                    flex-flow: row wrap;
-                    width: 135px;
-                    height: 40px;
-                    border: 1px solid lightgray;
-                    justify-content: center;
-                    align-items: center;
-                    border-radius: var(--border-radius-medium);
-                    column-gap: 5px;
-                    font-family: Yekan;
-                    font-size: 12px;
-                    text-shadow: 0 0 1px gray;
-                    text-decoration: none;
-                    color: #2b2b2b; 
-                    .gap-register{
-                        width: 1.6px;
-                        height: 14px;
-                        background-color: #2b2b2b;
-                    }
-                }
-                .digikala-header-center-login-seprator{
-                    width: 1px;
-                    height: 27px;
-                    background-color: lightgrey;
-                }
-            }
-        }
-        .bottom-header{
-            width: 100%;
-            height: 40px;
-            .bottom-header-right{
-                padding-right: 20px;
-                height: 100%;
-                width: 85%;
-                nav{
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    flex-flow: row wrap;
-                    div{
-                        width: fit-content;
-                        height: 100%;
-                        a{
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            column-gap: 3px;
-                            height: 100%;
-                            width: fit-content;
-                            padding: 0 12px;
-                            font-family: Yekan;
-                            text-decoration: none;
-                            font-size: 12px;
-                            color: #78797c;
-                        }
-                    }
-                }
-            }
-      
-        }
+      }
     }
+    .center-header {
+      width: 100%;
+      height: 70px;
+      display: flex;
+      flex-flow: row wrap;
+      .digikala-header-center-logo {
+        width: 15%;
+        height: 100%;
+        padding-right: 17px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .digikala-header-center-search {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        padding-right: 8px;
+        .search-input-center {
+          width: 56%;
+          height: 44px;
+          margin: 15px;
+          background-color: #f0f0f1;
+          border: none;
+          border-radius: var(--border-radius-medium);
+          padding-right: 10px;
+          caret-color: gray;
+          font-family: Yekan;
+          &::placeholder {
+            padding-right: 30px;
+            font-family: Yekan;
+            font-size: 12px;
+            color: gray;
+          }
+        }
+      }
+      .digikala-header-center-login {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 13px;
+        .digikala-header-center-register-link {
+          display: flex;
+          flex-flow: row wrap;
+          width: 135px;
+          height: 40px;
+          border: 1px solid lightgray;
+          justify-content: center;
+          align-items: center;
+          border-radius: var(--border-radius-medium);
+          column-gap: 5px;
+          font-family: Yekan;
+          font-size: 12px;
+          text-shadow: 0 0 1px gray;
+          text-decoration: none;
+          color: #2b2b2b;
+          .gap-register {
+            width: 1.6px;
+            height: 14px;
+            background-color: #2b2b2b;
+          }
+        }
+        .digikala-header-center-login-seprator {
+          width: 1px;
+          height: 27px;
+          background-color: lightgrey;
+        }
+      }
+    }
+    .bottom-header {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      flex-flow: row wrap;
+      .bottom-header-right {
+        padding-right: 20px;
+        height: 100%;
+        width: 87%;
+        nav {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          div {
+            width: fit-content;
+            height: 100%;
+            a {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              column-gap: 3px;
+              height: 100%;
+              width: fit-content;
+              padding: 0 12px;
+              font-family: Yekan;
+              text-decoration: none;
+              font-size: 11px;
+              color: #78797c;
+            }
+          }
+        }
+      }
+      .bottom-header-left {
+        width: 13%;
+        height: 100%;
+        .select-location {
+          width: fit-content;
+          padding: 6px;
+          justify-content: center;
+          display: flex;
+          align-items: center;
+          background-color: #fef6ef;
+          border-radius: 20px;
+          column-gap: 8px;
+          font-family: Yekan;
+          font-size: 12px;
+          color: #f57f17;
+        }
+      }
+    }
+  }
 }

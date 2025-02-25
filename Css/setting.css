@@ -28,3 +28,33 @@
 .ChangeScale{
   transform: scale(0.8,0.8);
 }
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next::after, .swiper-rtl .swiper-button-prev:after {
+  font-size: 12px;
+  color: rgb(152, 148, 148);
+  font-weight: bolder;
+}
+
+/* .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{ */
+  
+.swiper-button-prev.swiper-button-disabled, 
+.swiper-button-next.swiper-button-disabled,
+.swiper-rtl .swiper-button-prev.swiper-button-disabled, 
+.swiper-rtl .swiper-button-next.swiper-button-disabled {
+    opacity: 0;
+}

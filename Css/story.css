@@ -1,0 +1,89 @@
+.story{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .people-story{
+        width: 87%;
+        height: 100%;
+        .swiper {
+            width: 100%;
+            height: 100%;
+          }
+      
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2px;
+            .swiper-slide-items-live{
+              width: 100%;
+              height: 100%;
+              padding-top: 20px;
+              img{
+                width: 74px;
+                height: 74px;
+                border-radius: 50%;
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 15px;
+                outline: 5px solid  #93489C;
+                outline-offset: 3px;
+              }
+              p{
+                width: 70px;
+                margin: 0 auto;
+                font-family: Yekan;
+                font-size: 11px;
+                color: #5C5D7C;
+                line-height: 25px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                line-clamp: 2;
+                -webkit-line-clamp: 2; 
+                overflow: hidden;
+
+              }
+            }
+            .swiper-slide-items{
+              width: 100%;
+              height: 100%;
+              padding-top: 20px;
+              img{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 15px;
+                outline: 3px solid  #93489C;
+                outline-offset: 3px;
+              }
+              p{
+                width: 70px;
+                margin: 0 auto;
+                font-family: Yekan;
+                font-size: 10px;
+                color: #5C5D7C;
+                line-height: 25px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                line-clamp: 2;
+                -webkit-line-clamp: 2; 
+                overflow: hidden;
+              }
+            }
+          }
+      
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+    }
+}

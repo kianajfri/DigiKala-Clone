@@ -1,0 +1,21 @@
+.addsBanner{
+    width: 100%;
+    height: 437px;
+    display: flex;
+    flex-flow: row wrap;
+    .addsBanner-picrture{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 20px;
+        .addsBanner-items{
+            width: 332px;
+            height: 241.5px;
+            border-radius: 16px;
+            object-fit: cover;
+            position: relative;
+        }
+    }
+}

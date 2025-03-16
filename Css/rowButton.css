@@ -1,0 +1,39 @@
+.rowButtons{
+    width: 100%;
+    height: 150px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    .rowButtons-categories{
+        width: 80%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 20px;
+        display: flex;
+        flex-flow: row nowrap;
+        .rowButtons-categories-item{
+            width: 110px;
+            height: 100%;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 54px;
+                height: 54px;
+                column-gap: 20px;
+            }
+            p{
+                font-family: Yekan;
+                font-size: 11px;
+                align-items: center;
+                text-align: center;
+                padding: 6px 16px 0px 16px;
+                margin: 4px 0px 0px;
+                height: 48px;
+                color: #3F4064;
+            }
+        }
+    }
+}

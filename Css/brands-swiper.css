@@ -1,0 +1,67 @@
+.brandsSwiper {
+  width: 100%;
+  height: 225px;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 50px;
+  justify-content: center;
+  .brandsSwiper-inner {
+    width: 89%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+    border-radius: 16px;
+    padding: 24px 0;
+    .brandsSwiper-top {
+      display: flex;
+      flex-flow: row;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      img {
+        width: 24px;
+        height: 24px;
+      }
+      p {
+        font-family: Yekan;
+        text-align: center;
+        font-size: 21px;
+      }
+    }
+    .swiper-slide {
+      height: 118px;
+      display: inline-flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 12px;
+      box-sizing: border-box;
+      .brands-link{
+        width: 142px;
+        height: 118px;
+        padding: 4px 16px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        box-sizing: border-box;
+        flex-flow: row wrap;
+        position: relative;
+        border-right: 1px solid rgb(240, 236, 236); /* Add grey border to the right */
+        .swiper-brands-pic {
+          width: 110px;
+          height: 110px;
+          object-fit: contain;
+          display: block;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+        }
+      }
+    }
+  } 
+}

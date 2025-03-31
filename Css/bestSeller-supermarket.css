@@ -1,0 +1,127 @@
+.supermarket-bestSeller {
+  width: 100%;
+  height: 110px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  .supermarket-bestSeller-inner {
+    width: 1336px;
+    height: 110px;
+    border-radius: 13px;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 20px;
+    align-items: center;
+    line-height: 30px;
+    gap: 28px;
+    background: url(../Images/icon/freshPattern.svg) left center no-repeat
+      #ecefef;
+    .supermarket-bestSeller-basket {
+      display: inline-block;
+      position: relative;
+      width: 62px;
+      height: 66px;
+      object-fit: contain;
+    }
+    .bestSeller-sup-pic {
+      padding: 0 40px;
+    }
+    .supermarket-bestSeller-svg {
+      display: inline-block;
+      padding-right: 40px;
+    }
+    .supermarket-bestSeller-p {
+      display: inline-block;
+      font-family: Yekan;
+      font-weight: 500;
+      line-height: 2.15;
+      font-size: 14px;
+      background-color: #029a49;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      padding: 0 12px;
+      border-radius: 9999px;
+    }
+    .products-off-sup {
+      display: flex;
+      box-sizing: border-box;
+      z-index: 1;
+      width: 636.14px;
+      height: 74px;
+      position: relative !important;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px; 
+      margin: 0 65px 0 0;
+      cursor: pointer;
+      /* .products-off-sup-sub {
+        width: 492px;
+        height: 74px;
+        display: flex;
+        position: relative !important;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 10px; */
+        .products-off-sub-pic {
+          width: 492x;
+          max-height: 74px;
+          padding: 8px;
+          margin: 0 0 8px 8px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative !important;
+          cursor: pointer;
+          flex-wrap: wrap;
+          justify-content: flex-end;
+          display: flex;
+          .products-off-sup-pic {
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+          }
+          .product-discount {
+            width: 34px;
+            height: 20px;
+            margin-left: 100%;
+            display: flex;
+            padding: 5px 10px;
+            background-color: #d32f2f;
+            border-radius: 16px;
+            box-sizing: border-box;
+            right: 0;
+            bottom: 0;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            font-size: 13px;
+            font-family: Yekan;
+            color: white;
+          }
+        }
+      .inner-span {
+        width: 144.14px;
+        height: 50.04px;
+        background-color: white;
+        padding: 12px 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        box-sizing: border-box;
+        cursor: pointer;
+        border-radius: 9999px;
+        flex-flow: row wrap;
+        font-weight: 500;
+        line-height: 2.17;
+        margin-bottom: 20px;
+        span {
+          color: #029a49;
+          white-space: nowrap;
+          font-family: Yekan;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+

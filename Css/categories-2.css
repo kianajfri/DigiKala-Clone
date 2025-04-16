@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.categories-2{
+    width: 100%;
+    height: 418px;
+    padding: 20px;
+    .categories-2-inner{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        width: 92%;
+        margin: 0 auto;
+        border: 1px solid lightgrey;
+        padding: 20px;
+        background: #fff;
+        border-radius: 16px;
+    }
+}
+.Tshirt-category-header,
+.car-stuff-category-header,
+.masc-watch-header,
+.laptop-category-header {
+    margin-bottom: 5px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    h4{
+        display: block;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-size: 16px;
+        font-weight: lighter;
+        font-family: Yekan;
+        text-align: right;
+        color: #23254E;
+        line-height: 2.1;
+    }
+    p{
+        font-weight: 400;
+        font-family: Yekan;
+        font-size: 11px;
+        line-height: 2.17;
+        text-align: right;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+        color: rgb(126, 126, 126);
+    }
+}
+
+.Tshirt-category,
+.laptop-category,
+.masc-watch-category,
+.car-stuff-category {
+    width: 332.85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin: 0;  
+    padding: 8px 20px;
+    text-align: center;
+}
+.Tshirt-category-pics,
+.car-stuff-category-pics,
+.masc-watch-category-pics,
+.laptop-category-pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.Tshirt-category-pics img,
+.laptop-category-pics img,
+.masc-watch-category-pics img,
+.car-stuff-category-pics img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.more-to-see {
+    margin-top: 10px;
+}
+
+.more-to-see span {
+    color: #19BFD3;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: Yekan;
+    justify-content: center;
+    font-weight: 500;
+    align-items: center;
+}

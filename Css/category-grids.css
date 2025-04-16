@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.other-Products{
+    width: 100%;
+    height: 418px;
+    padding: 20px;
+    .other-Products-inner{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        width: 92%;
+        margin: 0 auto;
+        border: 1px solid lightgrey;
+        padding: 20px;
+        background: #fff;
+        border-radius: 16px;
+    }
+}
+.phone-category-header,
+.phone-case-category-header,
+.masculine-watch-header,
+.smart-watch-header {
+    margin-bottom: 5px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    h4{
+        display: block;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-size: 16px;
+        font-weight: lighter;
+        font-family: Yekan;
+        text-align: right;
+        color: #23254E;
+        line-height: 2.1;
+    }
+    p{
+        font-weight: 400;
+        font-family: Yekan;
+        font-size: 11px;
+        line-height: 2.17;
+        text-align: right;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+        color: rgb(126, 126, 126);
+    }
+}
+
+.phone-category,
+.phone-case-category,
+.masculine-watch-category,
+.smart-watch-category {
+    /* overflow: hidden; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center; */
+    width: 332.85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin: 0;  
+    padding: 8px 20px;
+    text-align: center;
+}
+.phone-category-pics,
+.phone-case-category-pics,
+.masculine-watch-category-pics,
+.smart-watch-category-pics {
+    /* display: flex;
+    gap: 5px; 
+    margin-bottom: 10px;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    width: 145.93px; 
+    height: 145.93px;
+    padding: 8px; */
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.phone-category-pics img,
+.phone-case-category-pics img,
+.masculine-watch-category-pics img,
+.smart-watch-category-pics img {
+    /* width: 100%;
+    height: 100%; */
+    /* padding: 8px; */
+    /* display: inline-block;
+    border-radius: 4px;
+    object-fit: contain; */
+
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.more-to-see {
+    margin-top: 10px;
+}
+
+.more-to-see span {
+    color: #19BFD3;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: Yekan;
+    justify-content: center;
+    font-weight: 500;
+    align-items: center;
+}

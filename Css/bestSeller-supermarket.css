@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   .supermarket-bestSeller-inner {
-    width: 1336px;
+    width: 92%;
     height: 110px;
     border-radius: 13px;
     display: flex;
@@ -53,7 +53,7 @@
       justify-content: flex-start;
       align-items: center;
       padding: 10px; 
-      margin: 0 65px 0 0;
+      margin: 0 130px 0 0;
       cursor: pointer;
       /* .products-off-sup-sub {
         width: 492px;

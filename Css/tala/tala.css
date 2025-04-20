@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 75px;
+    background-color: #FFD08F;
+    div.header-gold{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        .header-right{
+            padding: 4px 0;
+            gap: 6px;
+            display: flex;
+            align-items: center;
+            flex-flow: row wrap;
+            margin-right: 70px;
+            img{
+                width: 32px;
+                height: 32px;
+            }
+            .first{
+                color: #01494B;
+                font-weight: 800;
+                font-size: 21px;
+                font-family: Yekan;
+            }
+            .second{
+                color: #01494B;
+                font-family: Yekan;
+                font-size: 21px;
+                font-weight: lighter;
+            }
+        }
+        .header-left{
+            display: flex;
+            flex-flow: row wrap;
+            margin-left: 5pc;
+            align-items: center;
+            button{
+                border: none;
+                width: 150px;
+                font-family: Yekan;
+                font-size: 14px;
+                font-weight: bold;
+                height: 48px;
+                border-radius: 8px;
+                background-color: antiquewhite;
+                color: #e6123d !important;
+
+            }
+        }
+    }
+}
+
+.banner-gold{
+    width: 100%;
+    height: 300px;
+    background-color: #01494B;
+    .inner-banner{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 100px;
+        .text-banner{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            .first-2{
+                font-size: 33px;
+                color: #FFD08F;
+                font-family: Yekan;
+                font-weight: 800;
+            }
+            .second-2{
+                font-size: 33px;
+                color: #fff;
+                font-family: Yekan;
+                font-weight: 800;
+            }
+        }
+        p{
+            font-family: Yekan;
+            font-size: 14px;
+            color: #fff;
+        }
+        button{
+            margin-top: 20px;
+            width: 180px;
+            height: 40px;
+            background-color: #fff;
+            border: none;
+            color: #01494B;
+            font-family: Yekan;
+            font-size: 12px;
+            border-radius: 8px;
+        }
+    }
+}

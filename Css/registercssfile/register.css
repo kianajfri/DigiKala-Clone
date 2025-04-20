@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    direction: rtl;
+    margin: 0;
+  }
+  
+  .login-container {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 40px 30px;
+    width: 340px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .log-in {
+    margin: 10px 0;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: Yekan;
+    text-align: right;
+    line-height: 2.1;
+  }
+  
+  
+  .welcome {
+    font-family: Yekan;
+    font-size: 12px;
+    margin: 10px 0 5px;
+    color: #3f4064;
+    text-align: right;
+  }
+  
+  .instruction {
+    font-family: Yekan;
+    color: #3f4064;
+    font-size: 12px;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 95%;
+    height: 48px;
+    /* padding: 12px; */
+    border: 1px solid #2586ff;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+
+  .login-btn {
+    width: 100%;
+    padding: 12px 16px;
+    background-color: #ef4056;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 32px 0 0;
+    font-family: Yekan;
+  }
+  
+  .login-btn:hover {
+    background-color: #d63245;
+  }
+  
+  .terms {
+    font-size: 11px;
+    color: #3f4064;
+    margin: 16px 0 0;
+    font-family: Yekan;
+  }
+  
+  .terms a {
+    color: #009dc7;
+    text-decoration: none;
+  }
+  

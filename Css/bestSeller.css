@@ -11,7 +11,7 @@
     height: 100%;
     background-color: #da2f4e;
     padding: 20px 0;
-    border-radius: 17px;
+    border-radius: 16px;
     .swiper {
       width: 100%;
       height: 100%;
@@ -27,6 +27,11 @@
       .swiper-slide-bestSeller {
         width: 100%;
         height: 100%;
+        .see-more {
+          img {
+            width: 5px;
+          }
+        }
         .swiper-slide-bestSeller-link {
           width: 100%;
           height: 100%;
@@ -35,10 +40,10 @@
           text-decoration: none;
           row-gap: 10px;
           .swiper-slide-bestSeller-link-svg-1 {
-            width: 88px;
-            height: 88px;
+            width: 90px;
+            height: 90px;
             margin: 0 auto;
-            padding-bottom: 15px;
+            padding-bottom: 3px;
           }
           .counter {
             width: 100%;
@@ -95,37 +100,48 @@
       .swiper-slide-items {
         height: 100%;
         width: 100%;
+        display: flex;
         .swiper-slide-items-link {
-            display: block;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-flow: column wrap; 
-            text-decoration: none;
-            align-items: center;
-            row-gap: 20px;
+          display: block;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-flow: column wrap;
+          text-decoration: none;
+          align-items: center;
+          row-gap: 20px;
           .swiper-slide-image {
             width: 132px;
             height: 132px;
-            img{
-                width: 100%;
-                height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+              border-radius: 8px;
+              display: inline-block;
+              overflow: hidden;
+              position: relative;
             }
           }
           .swiper-slide-title {
             width: 80%;
+            height: 40px;
             font-size: 11px;
             font-family: Yekan;
             margin: 0 auto;
+            font-weight: lighter;
             text-decoration: none;
-            color: #2b2b2b;
+            color: #62666d;
             display: -webkit-box;
             -webkit-box-orient: vertical;
             box-orient: vertical;
             -webkit-line-clamp: 2;
             line-clamp: 2;
             overflow: hidden;
-            line-height: 20px;
+            line-height: 20px !important;
             text-align: right;
           }
         }
@@ -135,4 +151,56 @@
 }
 .bg-red {
   background-color: #da2f4e;
+}
+
+.price-slider{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .price-slider-upper{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+  .price{
+    font-family: Yekan;
+    color: #343552;
+    font-size: 14px;
+  }
+  .percentage{
+    padding: 0 4px;
+    background-color: #d32f2f;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+    height: 20px;
+    width: 34px;
+    span{
+      font-family: Yekan;
+      color: #fff;
+      font-size: 12px;
+      line-height: 2.17;
+    }
+  }
+}
+.discounts{
+  font-family: Yekan;
+  display: flex;
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #c0c2c5;
+  line-height: 21px !important;
+  align-self: flex-end;
+  margin-right: auto;
+  padding: 0 0 0 20px;
+}
+}
+
+.radius-one{
+  border-radius: 0 8px 8px 0;
 }

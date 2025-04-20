@@ -25,16 +25,13 @@
 .masculine-watch-header,
 .smart-watch-header {
     margin-bottom: 5px;
-    justify-content: space-between;
+    justify-content: flex-start;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%;
     h4{
         display: block;
-        margin-block-start: 1.33em;
-        margin-block-end: 1.33em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
         font-size: 16px;
         font-weight: lighter;
         font-family: Yekan;
@@ -83,33 +80,18 @@
 .phone-case-category-pics,
 .masculine-watch-category-pics,
 .smart-watch-category-pics {
-    /* display: flex;
-    gap: 5px; 
-    margin-bottom: 10px;
-    justify-content: center; 
-    flex-wrap: wrap; 
-    width: 145.93px; 
-    height: 145.93px;
-    padding: 8px; */
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     width: 100%;
     margin-bottom: 10px;
+    border-right: 1px solid rgb(232, 230, 230);
 }
 
 .phone-category-pics img,
 .phone-case-category-pics img,
 .masculine-watch-category-pics img,
 .smart-watch-category-pics img {
-    /* width: 100%;
-    height: 100%; */
-    /* padding: 8px; */
-    /* display: inline-block;
-    border-radius: 4px;
-    object-fit: contain; */
-
     width: 100%;
     height: auto;
     border-radius: 6px;

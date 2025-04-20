@@ -81,3 +81,7 @@
 .ChangeScale2{
   transform: scale(0.9,0.9);
 }
+
+.chevron-left{
+  width: 5px;
+}

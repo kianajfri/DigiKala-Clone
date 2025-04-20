@@ -45,6 +45,7 @@
         flex-flow: row wrap;
         margin: 10px auto;
         gap: 3px;
+        align-items: center;
         img{
             width: 86px;
             height: 86px;
@@ -74,6 +75,7 @@
             flex-direction: column;
             justify-content: center;
             line-height: 2.17;
+            text-align: right;
         }
         
     }

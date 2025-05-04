@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #f9f9f9;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,13 +19,15 @@ body {
   }
   
   .logo {
-    width: 80px;
+    width: 100px;
     margin-bottom: 20px;
   }
   
   h2 {
-    margin: 10px 0;
     font-size: 20px;
+    font-weight: lighter;
+    font-family: Yekan;
+    text-align: right;
   }
   
   .bold {
@@ -33,29 +35,28 @@ body {
   }
   
   .welcome {
-    margin: 10px 0 5px;
-    color: #444;
+    color: #3f4064;
+    font-family: Yekan;
+    font-size: 12px;
+    text-align: right;
   }
   
   .instruction {
-    color: #777;
-    font-size: 14px;
+    color: #3f4064;
+    font-size: 12px;
     margin-bottom: 20px;
+    font-family: Yekan;
+    text-align: right;
   }
   
   .input-field {
-    width: 100%;
+    width: 90%;
+    height: 23px;
     padding: 12px;
-    border: 1px solid #d32f2f;
-    border-radius: 6px;
-    margin-bottom: 5px;
+    border: 1px solid #007aff;
+    border-radius: 11px;
+    margin-bottom: 40px;
     font-size: 14px;
-  }
-  
-  .error {
-    color: #d32f2f;
-    font-size: 12px;
-    margin-bottom: 20px;
   }
   
   .login-btn {
@@ -65,9 +66,10 @@ body {
     color: white;
     border: none;
     border-radius: 6px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     margin-bottom: 20px;
+    font-family: Yekan;
   }
   
   .login-btn:hover {
@@ -75,12 +77,14 @@ body {
   }
   
   .terms {
-    font-size: 12px;
+    font-size: 11px;
     color: #444;
+    font-family: Yekan;
   }
   
   .terms a {
     color: #009dc7;
     text-decoration: none;
+    font-family: Yekan;
   }
   
